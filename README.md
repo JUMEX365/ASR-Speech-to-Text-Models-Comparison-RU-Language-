@@ -1,4 +1,4 @@
-# ASR-Speech-to-Text-Models-Comparison-RU-Language
+# ASR-Speech-to-Text-RU-Models-Comparison
 Here is a [pipline](https://github.com/JUMEX365/ASR-Speech-to-Text-RU-Models-Comparison/blob/main/ASR_models_comparison_pipeline.ipynb) to compare open source automatic speech recognition ML models by metrics WER, CER ect.
 ## 
 
