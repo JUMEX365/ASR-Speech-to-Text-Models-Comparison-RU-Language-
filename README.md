@@ -10,7 +10,7 @@ The following ASR models were tested on my own dataset (10 in-depth interviews: 
 - Sber Salute Developers: [GigaAM](https://github.com/salute-developers/GigaAM) (ver. v2_rnnt)
 
 Diarization model: 
-- Pyannote: [speaker-diarization-3.1](https://huggingface.co/pyannote/speaker-diarization-3.1)
+- Pyannote: [Speaker-diarization-3.1](https://huggingface.co/pyannote/speaker-diarization-3.1)
 
 **The results:**
 
