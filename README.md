@@ -36,6 +36,8 @@ The results:
 | Wav2Vec-finetuned by Jonatas Grosman |                          54,03 |   25,72 |   49,09 |   69,47 |    41,52 |
 | GigaAM (v2_rnnt)                     |                          18,75 |   18,75 |   17,04 |   22,42 |    11,95 |
 
+
+|**Audio Total Length**: 40143,3 seconds (or ~11 hours and 10 minutes)
 |                                      | **_Time Metrics_**     | _(seconds)_                         |         | 
 |--------------------------------------|------------------------|:-----------------------------------:|:-------:|
 | **Model**                            | **Caclulation Device** | **Time of work**                    | **RTF** |
@@ -47,5 +49,3 @@ The results:
 | GigaAM (v2_rnnt)                     | CUDA (GPU)             |                              1005,1 |   0,025 |
 | Pyannote speaker-diarization-3.1     | CUDA (GPU)             |                               971,2 |   0,024 |
 
-
-|**Audio Total Length**:               | 40143,3 (seconds)      |                                     |         |
