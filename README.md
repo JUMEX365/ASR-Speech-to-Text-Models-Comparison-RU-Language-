@@ -1,6 +1,6 @@
 # ASR-Speech-to-Text-Models-Comparison-RU-Language
 Here is a [pipline](https://github.com/JUMEX365/ASR-Speech-to-Text-RU-Models-Comparison/blob/main/ASR_models_comparison_pipeline.ipynb) to compare open source automatic speech recognition ML models by metrics WER, CER ect.
-##
+## 
 
 **The following ASR models** were tested on my own dataset (10 in-depth interviews: ~11 hours of Russian informal speech):
 - OpenAI: [Whisper-large-v3-turbo](https://huggingface.co/openai/whisper-large-v3-turbo)
@@ -10,7 +10,7 @@ Here is a [pipline](https://github.com/JUMEX365/ASR-Speech-to-Text-RU-Models-Com
 - Meta AI + Jonatas Grosman: [Wav2vec2-large-xlsr-53-russian](https://huggingface.co/jonatasgrosman/wav2vec2-large-xlsr-53-russian)
 - Sber Salute Developers: [GigaAM](https://github.com/salute-developers/GigaAM) (ver. v2_rnnt)
 
-Diarization model: 
+**Diarization model**: 
 - Pyannote: [Speaker-diarization-3.1](https://huggingface.co/pyannote/speaker-diarization-3.1)
 
 
