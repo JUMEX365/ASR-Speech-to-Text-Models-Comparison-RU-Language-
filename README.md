@@ -13,6 +13,7 @@ Diarization model:
 - Pyannote: [speaker-diarization-3.1](https://huggingface.co/pyannote/speaker-diarization-3.1)
 
 The results:
-![image](https://github.com/user-attachments/assets/ce2d0e21-bff6-443b-9632-c7fce946d44b)
+![image](https://github.com/user-attachments/assets/c71af1a5-ae1c-45bb-800f-3d5611fefb33)
+
 						
 
