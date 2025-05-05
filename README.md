@@ -12,7 +12,7 @@ The following ASR models were tested on my own dataset (10 in-depth interviews: 
 Diarization model: 
 - Pyannote: [Speaker-diarization-3.1](https://huggingface.co/pyannote/speaker-diarization-3.1)
 
-**The results:**
+### **The results:**
 
 ------------------------------------------------------------------------------------------------------------------------
 
@@ -62,6 +62,6 @@ _Detailed view:_
 | Pyannote speaker-diarization-3.1     | CUDA (GPU)             |                               971,2 |   0,024 |
 
 ------------------------------------------------------------------------------------------------------------------------
-
+### Clarifications
 * More info about metrics: [Morris, Andrew & Maier, Viktoria & Green, Phil. (2004). From WER and RIL to MER and WIL: improved evaluation measures for connected speech recognition. 10.21437/Interspeech.2004-668.](https://www.researchgate.net/publication/221478089_From_WER_and_RIL_to_MER_and_WIL_improved_evaluation_measures_for_connected_speech_recognition)
 * _PIER_ is custom metric that means _Position Independent Word Error Rate_
