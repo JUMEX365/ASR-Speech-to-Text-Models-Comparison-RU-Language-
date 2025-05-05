@@ -13,10 +13,9 @@ Diarization model:
 - Pyannote: [speaker-diarization-3.1](https://huggingface.co/pyannote/speaker-diarization-3.1)
 
 The results:
-|                                      |                     |             Time Metrics            |                                  |       | Raw Text Quality Metrics |       |       |       |       | Lemmatized Text Quality Metrics |       |       |       |       |
+|                                      |                                    Time Metrics                                              |       | Raw Text Quality Metrics |       |       |       |       | Lemmatized Text Quality Metrics |       |       |       |       |
 |--------------------------------------|---------------------|:-----------------------------------:|:--------------------------------:|:-----:|:------------------------:|:-----:|:-----:|:-----:|:-----:|:-------------------------------:|:-----:|:-----:|:-----:|:-----:|
 | Model                                | Caclulation Device  |         Audio Time (seconds)        | Time of transcripation (seconds) |  RTF  |            WER           |  CER  |  MER  |  WIL  |  PIER |               WER               |  CER  |  MER  |  WIL  |  PIER |
-| Generalized 10 sample                |                     |                                     |                                  |       |                          |       |       |       |       |                                 |       |       |       |       |
 | Whisper Medium                       | CUDA (GPU)          | 40143,3  (~11 hours and 10 minutes) |                           5095,9 | 0,127 |                    17,56 | 10,51 | 16,42 | 22,74 | 13,03 |                           16,15 | 10,41 |  15,1 | 20,25 | 12,78 |
 | Whisper Large-v3-turbo               | CUDA (GPU)          |                                     |                           2309,3 | 0,058 |                    15,78 |  9,88 |  14,6 |  19,5 | 10,35 |                           14,64 |  9,79 |  9,79 | 17,46 | 10,25 |
 | Vosk 0,42 RU                         | CPU                 |                                     |                          11255,6 |  0,28 |                    29,78 | 16,96 |  27,5 | 40,19 | 19,61 |                            26,9 | 16,73 | 24,82 | 35,58 | 16,83 |
