@@ -13,7 +13,9 @@ Diarization model:
 - Pyannote: [speaker-diarization-3.1](https://huggingface.co/pyannote/speaker-diarization-3.1)
 
 **The results:**
+
 ------------------------------------------------------------------------------------------------------------------------
+
 Concise view
 ![image](https://github.com/user-attachments/assets/c71af1a5-ae1c-45bb-800f-3d5611fefb33)
 
