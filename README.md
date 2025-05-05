@@ -13,7 +13,7 @@ Diarization model:
 - Pyannote: [speaker-diarization-3.1](https://huggingface.co/pyannote/speaker-diarization-3.1)
 
 The results:
-|                                      |                                    Time Metrics                                              |       | Raw Text Quality Metrics |       |       |       |       | Lemmatized Text Quality Metrics |       |       |       |       |
+|                                      |                     |             Time Metrics            |                                  |       | Raw Text Quality Metrics |       |       |       |       | Lemmatized Text Quality Metrics |       |       |       |       |
 |--------------------------------------|---------------------|:-----------------------------------:|:--------------------------------:|:-----:|:------------------------:|:-----:|:-----:|:-----:|:-----:|:-------------------------------:|:-----:|:-----:|:-----:|:-----:|
 | Model                                | Caclulation Device  |         Audio Time (seconds)        | Time of transcripation (seconds) |  RTF  |            WER           |  CER  |  MER  |  WIL  |  PIER |               WER               |  CER  |  MER  |  WIL  |  PIER |
 | Whisper Medium                       | CUDA (GPU)          | 40143,3  (~11 hours and 10 minutes) |                           5095,9 | 0,127 |                    17,56 | 10,51 | 16,42 | 22,74 | 13,03 |                           16,15 | 10,41 |  15,1 | 20,25 | 12,78 |
