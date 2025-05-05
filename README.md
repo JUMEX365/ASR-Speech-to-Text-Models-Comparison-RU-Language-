@@ -14,7 +14,7 @@ Here is a [pipline](https://github.com/JUMEX365/ASR-Speech-to-Text-RU-Models-Com
 - Pyannote: [Speaker-diarization-3.1](https://huggingface.co/pyannote/speaker-diarization-3.1)
 
 
-## **The results:**
+## **Results:**
 
 #### _Concise view:_
 
@@ -66,4 +66,5 @@ Here is a [pipline](https://github.com/JUMEX365/ASR-Speech-to-Text-RU-Models-Com
 ## Clarifications:
 * More info about metrics: [Morris, Andrew & Maier, Viktoria & Green, Phil. (2004). From WER and RIL to MER and WIL: improved evaluation measures for connected speech recognition. 10.21437/Interspeech.2004-668.](https://www.researchgate.net/publication/221478089_From_WER_and_RIL_to_MER_and_WIL_improved_evaluation_measures_for_connected_speech_recognition)
 * _PIER_ is custom metric that means _Position Independent Word Error Rate_
+* Interpretation of the metric: the lower the better
 * Actual date of presented results ~May 2025
