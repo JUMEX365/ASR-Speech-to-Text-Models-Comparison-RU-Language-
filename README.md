@@ -12,7 +12,7 @@ The following ASR models were tested on my own dataset (10 in-depth interviews: 
 Diarization model: 
 - Pyannote: [speaker-diarization-3.1](https://huggingface.co/pyannote/speaker-diarization-3.1)
 
-The results:
+**The results:**
 ![image](https://github.com/user-attachments/assets/c71af1a5-ae1c-45bb-800f-3d5611fefb33)
 
 |                                      | **_Raw Text Quality Metrics_** |         |         |         |          |
@@ -25,6 +25,7 @@ The results:
 | Wav2Vec-finetuned by Jonatas Grosman |                          54,03 |   25,72 |   49,09 |   69,47 |    41,52 |
 | GigaAM (v2_rnnt)                     |                          18,75 |   18,75 |   17,04 |   22,42 |    11,95 |
 
+------------------------------------------------------------------------------------------------------------------------
 
 |                                      | **_Raw Text Quality Metrics_** |         |         |         |          |
 |--------------------------------------|:------------------------------:|:-------:|:-------:|:-------:|:--------:|
@@ -36,8 +37,9 @@ The results:
 | Wav2Vec-finetuned by Jonatas Grosman |                          54,03 |   25,72 |   49,09 |   69,47 |    41,52 |
 | GigaAM (v2_rnnt)                     |                          18,75 |   18,75 |   17,04 |   22,42 |    11,95 |
 
+------------------------------------------------------------------------------------------------------------------------
 
-|**Audio Total Length**: 40143,3 seconds (or ~11 hours and 10 minutes)
+**Audio Total Length**: 40143,3 seconds (or ~11 hours and 10 minutes)
 |                                      | **_Time Metrics_**     | _(seconds)_                         |         | 
 |--------------------------------------|------------------------|:-----------------------------------:|:-------:|
 | **Model**                            | **Caclulation Device** | **Time of work**                    | **RTF** |
