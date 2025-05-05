@@ -28,9 +28,9 @@ Here is a [pipline](https://github.com/JUMEX365/ASR-Speech-to-Text-RU-Models-Com
 |--------------------------------------|:------------------------------:|:-------:|:-------:|:-------:|:--------:|
 | **Model**                            |             **WER**            | **CER** | **MER** | **WIL** | **PIER** |
 | Whisper Medium                       |                          17,56 |   10,51 |   16,42 |   22,74 |    13,03 |
-| Whisper Large-v3-turbo               |                          15,78 |    9,88 |    14,6 |    19,5 |    10,35 |
-| Vosk 0,42 RU                         |                          29,78 |   16,96 |    27,5 |   40,19 |    19,61 |
-| Seamless-M4T-v2-large                |                          45,73 |    35,4 |   43,79 |   54,78 |    32,14 |
+| Whisper Large-v3-turbo               |                          15,78 |    9,88 |   14,60 |   19,50 |    10,35 |
+| Vosk 0,42 RU                         |                          29,78 |   16,96 |   27,50 |   40,19 |    19,61 |
+| Seamless-M4T-v2-large                |                          45,73 |   35,40 |   43,79 |   54,78 |    32,14 |
 | Wav2Vec-finetuned by Jonatas Grosman |                          54,03 |   25,72 |   49,09 |   69,47 |    41,52 |
 | GigaAM (v2_rnnt)                     |                          18,75 |   18,75 |   17,04 |   22,42 |    11,95 |
 
@@ -39,11 +39,11 @@ Here is a [pipline](https://github.com/JUMEX365/ASR-Speech-to-Text-RU-Models-Com
 |**_Lemmatized Text Quality Metrics_** |                                       |         |         |         |          |
 |--------------------------------------|:-------------------------------------:|:-------:|:-------:|:-------:|:--------:|
 | **Model**                            |                **WER**                | **CER** | **MER** | **WIL** | **PIER** |
-| Whisper Medium                       |                                 16,15 |   10,41 |    15,1 |   20,25 |    12,78 |
+| Whisper Medium                       |                                 16,15 |   10,41 |   15,10 |   20,25 |    12,78 |
 | Whisper Large-v3-turbo               |                                 14,64 |    9,79 |    9,79 |   17,46 |    10,25 |
-| Vosk 0,42 RU                         |                                  26,9 |   16,73 |   24,82 |   35,58 |    16,83 |
+| Vosk 0,42 RU                         |                                 26,90 |   16,73 |   24,82 |   35,58 |    16,83 |
 | Seamless-M4T-v2-large                |                                 43,68 |   43,68 |   41,81 |   51,49 |    29,64 |
-| Wav2Vec-finetuned by Jonatas Grosman |                                 50,69 |   50,69 |   45,99 |   65,54 |     36,7 |
+| Wav2Vec-finetuned by Jonatas Grosman |                                 50,69 |   50,69 |   45,99 |   65,54 |    36,70 |
 | GigaAM (v2_rnnt)                     |                                 17,61 |   12,16 |   16,01 |   20,45 |    13,08 |
 
 ------------------------------------------------------------------------------------------------------------------------
@@ -55,8 +55,8 @@ Here is a [pipline](https://github.com/JUMEX365/ASR-Speech-to-Text-RU-Models-Com
 | **Model**                            | **Caclulation Device** | **Time of work**                    | **RTF** |
 | Whisper Medium                       | CUDA (GPU)             |                              5095,9 |   0,127 |
 | Whisper Large-v3-turbo               | CUDA (GPU)             |                              2309,3 |   0,058 |
-| Vosk 0,42 RU                         | CPU                    |                             11255,6 |    0,28 |
-| Seamless-M4T-v2-large                | CUDA (GPU)             |                               60421 |   1,505 |
+| Vosk 0,42 RU                         | CPU                    |                             11255,6 |   0,280 |
+| Seamless-M4T-v2-large                | CUDA (GPU)             |                             60421,0 |   1,505 |
 | Wav2Vec-finetuned by Jonatas Grosman | CUDA (GPU)             |                               371,1 |   0,009 |
 | GigaAM (v2_rnnt)                     | CUDA (GPU)             |                              1005,1 |   0,025 |
 | Pyannote speaker-diarization-3.1     | CUDA (GPU)             |                               971,2 |   0,024 |
@@ -66,5 +66,5 @@ Here is a [pipline](https://github.com/JUMEX365/ASR-Speech-to-Text-RU-Models-Com
 ## Clarifications:
 * More info about metrics: [Morris, Andrew & Maier, Viktoria & Green, Phil. (2004). From WER and RIL to MER and WIL: improved evaluation measures for connected speech recognition. 10.21437/Interspeech.2004-668.](https://www.researchgate.net/publication/221478089_From_WER_and_RIL_to_MER_and_WIL_improved_evaluation_measures_for_connected_speech_recognition)
 * _PIER_ is custom metric that means _Position Independent Word Error Rate_
-* Interpretation of the metric: the lower the better
+* Interpretation of the metrics: the lower the better
 * Actual date of presented results ~May 2025
