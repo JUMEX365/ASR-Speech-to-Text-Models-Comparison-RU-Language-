@@ -36,14 +36,16 @@ The results:
 | Wav2Vec-finetuned by Jonatas Grosman |                          54,03 |   25,72 |   49,09 |   69,47 |    41,52 |
 | GigaAM (v2_rnnt)                     |                          18,75 |   18,75 |   17,04 |   22,42 |    11,95 |
 
-|                                      | **_Time Metrics_**     |                                     |                                     |         | 
-|--------------------------------------|------------------------|:-----------------------------------:|:-----------------------------------:|:-------:|
-| **Model**                            | **Caclulation Device** |       **Audio Time (seconds)**      | **Time of transcription (seconds)** | **RTF** |
-| Whisper Medium                       | CUDA (GPU)             | 40143,3  (~11 hours and 10 minutes) |                              5095,9 |   0,127 |
-| Whisper Large-v3-turbo               | CUDA (GPU)             |                                     |                              2309,3 |   0,058 |
-| Vosk 0,42 RU                         | CPU                    |                                     |                             11255,6 |    0,28 |
-| Seamless-M4T-v2-large                | CUDA (GPU)             |                                     |                               60421 |   1,505 |
-| Wav2Vec-finetuned by Jonatas Grosman | CUDA (GPU)             |                                     |                               371,1 |   0,009 |
-| GigaAM (v2_rnnt)                     | CUDA (GPU)             |                                     |                              1005,1 |   0,025 |
-| Pyannote speaker-diarization-3.1     | CUDA (GPU)             |                                     |                               971,2 |   0,024 |
-|**Audio Total Length**:               | 40143,3 (seconds)      |     ~11 hours and 10 minutes        |                                     |         |
+|                                      | **_Time Metrics_**     | _(seconds)_                         |         | 
+|--------------------------------------|------------------------|:-----------------------------------:|:-------:|
+| **Model**                            | **Caclulation Device** | **Time of work**                    | **RTF** |
+| Whisper Medium                       | CUDA (GPU)             |                              5095,9 |   0,127 |
+| Whisper Large-v3-turbo               | CUDA (GPU)             |                              2309,3 |   0,058 |
+| Vosk 0,42 RU                         | CPU                    |                             11255,6 |    0,28 |
+| Seamless-M4T-v2-large                | CUDA (GPU)             |                               60421 |   1,505 |
+| Wav2Vec-finetuned by Jonatas Grosman | CUDA (GPU)             |                               371,1 |   0,009 |
+| GigaAM (v2_rnnt)                     | CUDA (GPU)             |                              1005,1 |   0,025 |
+| Pyannote speaker-diarization-3.1     | CUDA (GPU)             |                               971,2 |   0,024 |
+
+
+|**Audio Total Length**:               | 40143,3 (seconds)      |                                     |         |
