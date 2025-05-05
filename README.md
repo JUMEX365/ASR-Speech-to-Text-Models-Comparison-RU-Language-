@@ -61,6 +61,11 @@ Here is a [pipline](https://github.com/JUMEX365/ASR-Speech-to-Text-RU-Models-Com
 | GigaAM (v2_rnnt)                     | CUDA (GPU)             |                              1005,1 |   0,025 |
 | Pyannote speaker-diarization-3.1     | CUDA (GPU)             |                               971,2 |   0,024 |
 
+**Specs:**
+CPU: Intel Core i7-9700K CPU @ 3.60GHz 
+GPU: NVIDIA GeForce RTX 2080 SUPER @ 8GB
+RAM: 32GB
+
 ------------------------------------------------------------------------------------------------------------------------
 
 ## Clarifications:
