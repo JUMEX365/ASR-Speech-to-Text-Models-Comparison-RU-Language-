@@ -61,3 +61,5 @@ _Detailed view:_
 | Pyannote speaker-diarization-3.1     | CUDA (GPU)             |                               971,2 |   0,024 |
 
 ------------------------------------------------------------------------------------------------------------------------
+
+* _PIER_ is custom metric that means _Position Independent Word Error Rate_
