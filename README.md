@@ -18,7 +18,7 @@ Here is a [pipline](https://github.com/JUMEX365/ASR-Speech-to-Text-RU-Models-Com
 
 #### _Concise view:_
 
-![image](https://github.com/user-attachments/assets/a5bf19d0-006b-4cc8-bd45-c908909edc60)
+![image](https://github.com/user-attachments/assets/08033ca2-e2c7-4ef5-a096-5ca966e579c5)
 
 ------------------------------------------------------------------------------------------------------------------------
 
@@ -26,7 +26,7 @@ Here is a [pipline](https://github.com/JUMEX365/ASR-Speech-to-Text-RU-Models-Com
 
 |**_Raw Text Quality Metrics_**        |                                |         |         |         |          |
 |--------------------------------------|:------------------------------:|:-------:|:-------:|:-------:|:--------:|
-| **Model**                            |             **WER**            | **CER** | **MER** | **WIL** | **PIER** |
+| **Model**                            |             **WER**            | **CER** | **MER** | **WIL** | **PIWER** |
 | Whisper Medium                       |                          17,56 |   10,51 |   16,42 |   22,74 |    13,03 |
 | Whisper Large-v3-turbo               |                          15,78 |    9,88 |   14,60 |   19,50 |    10,35 |
 | Vosk 0,42 RU                         |                          29,78 |   16,96 |   27,50 |   40,19 |    19,61 |
@@ -38,7 +38,7 @@ Here is a [pipline](https://github.com/JUMEX365/ASR-Speech-to-Text-RU-Models-Com
 
 |**_Lemmatized Text Quality Metrics_** |                                       |         |         |         |          |
 |--------------------------------------|:-------------------------------------:|:-------:|:-------:|:-------:|:--------:|
-| **Model**                            |                **WER**                | **CER** | **MER** | **WIL** | **PIER** |
+| **Model**                            |                **WER**                | **CER** | **MER** | **WIL** | **PIWER** |
 | Whisper Medium                       |                                 16,15 |   10,41 |   15,10 |   20,25 |    12,78 |
 | Whisper Large-v3-turbo               |                                 14,64 |    9,79 |   13,54 |   17,46 |    10,25 |
 | Vosk 0,42 RU                         |                                 26,90 |   16,73 |   24,82 |   35,58 |    16,83 |
@@ -70,6 +70,6 @@ Here is a [pipline](https://github.com/JUMEX365/ASR-Speech-to-Text-RU-Models-Com
 
 ## Clarifications:
 * More info about metrics: [Morris, Andrew & Maier, Viktoria & Green, Phil. (2004). From WER and RIL to MER and WIL: improved evaluation measures for connected speech recognition. 10.21437/Interspeech.2004-668.](https://www.researchgate.net/publication/221478089_From_WER_and_RIL_to_MER_and_WIL_improved_evaluation_measures_for_connected_speech_recognition)
-* _PIER_ is custom metric that means _Position Independent Word Error Rate_
+* _PIWER_ is custom metric that means _Position Independent Word Error Rate_
 * Interpretation of the metrics: the lower the better
 * Actual date of presented results ~May 2025
